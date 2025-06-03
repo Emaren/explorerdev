@@ -1,0 +1,64 @@
+{
+  "chain_id": "wolodev",
+  "chain_name": "WoloDev",
+  "status": "live",
+  "network_type": "mainnet",
+  "pretty_name": "WoloDev",
+  "node_home": ".wolodev",
+  "key_algos": ["secp256k1"],
+  "slip44": 118,
+  "bech32_prefix": "wolo",
+  "daemon_name": "wolodevd",
+  "genesis": {
+    "genesis_url": ""
+  },
+  "logo": "https://explorer.aoe2hdbets.com/logos/wolo-logo-4.svg",
+  "theme_color": "#FFD700",
+  "min_tx_fee": "800",
+  "api": [
+    {
+      "address": "https://explorer.aoe2hdbets.com/backend/cosmos",
+      "provider": "WoloDev"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://explorer.aoe2hdbets.com/backend/tendermint",
+      "provider": "WoloDev"
+    }
+  ],
+  "grpc": [
+    {
+      "address": "https://explorer.aoe2hdbets.com/backend",
+      "provider": "WoloDev"
+    }
+  ],
+  "staking": {
+    "staking_tokens": "uwolo",
+    "custom_staking_denom": "WOLO"
+  },
+  "codebase": {
+    "cosmos_sdk_version": "v0.47.5",
+    "coingecko_id": ""
+  },
+  "assets": [
+    {
+      "description": "The Wolo token used for gas, staking, and governance in the WoloDev chain.",
+      "denom_units": [
+        {
+          "denom": "uwolo",
+          "exponent": 0
+        },
+        {
+          "denom": "wolo",
+          "exponent": 6
+        }
+      ],
+      "base": "uwolo",
+      "name": "Wolo",
+      "display": "wolo",
+      "symbol": "WOLO",
+      "coingecko_id": ""
+    }
+  ]
+}

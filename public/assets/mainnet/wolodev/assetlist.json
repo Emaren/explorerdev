@@ -1,0 +1,23 @@
+{
+  "chain_name": "wolodev",
+  "assets": [
+    {
+      "description": "The Wolo token used for gas, staking, and governance in the WoloDev chain.",
+      "denom_units": [
+        {
+          "denom": "uwolo",
+          "exponent": 0
+        },
+        {
+          "denom": "wolo",
+          "exponent": 6
+        }
+      ],
+      "base": "uwolo",
+      "name": "Wolo",
+      "display": "wolo",
+      "symbol": "WOLO",
+      "coingecko_id": ""
+    }
+  ]
+}
