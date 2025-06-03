@@ -3,3 +3,7 @@ node_modules/
 yarn-error.log
 dist
 .idea
+dist/
+node_modules/
+.yarn/
+*.log
