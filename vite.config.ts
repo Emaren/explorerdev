@@ -10,7 +10,6 @@ import Pages from 'vite-plugin-pages';
 
 import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   define: {
     'process.env': {}
@@ -31,7 +30,7 @@ export default defineConfig({
     vueJsx(),
     Pages({
       dirs: ['./src/modules', './src/pages'],
-      exclude: ['**/*.ts'], // only load .vue as modules
+      exclude: ['**/*.ts'],
     }),
     Layouts({
       layoutsDirs: './src/layouts/',
