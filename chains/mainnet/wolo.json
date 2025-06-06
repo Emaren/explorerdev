@@ -1,0 +1,19 @@
+{
+  "chain_name": "Wolo",
+  "addr_prefix": "wolo",
+  "rpc": ["https://explorer.aoe2hdbets.com/backend/tendermint"],
+  "api": ["https://explorer.aoe2hdbets.com/backend/cosmos"],
+  "sdk_version": "0.47.5",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "logo": "https://explorer.aoe2hdbets.com/logos/wolovs.svg",
+  "assets": [
+    {
+      "base": "uwolo",
+      "symbol": "wolo",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "https://explorer.aoe2hdbets.com/logos/wolo-logo-4.svg"
+    }
+  ]
+}

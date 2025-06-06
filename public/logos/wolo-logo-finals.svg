@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="woloGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7A1FA4"/>
+      <stop offset="100%" stop-color="#00BFFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#woloGradient)">
+    <circle cx="256" cy="256" r="40"/>
+    <path d="M256 160a96 96 0 0 1 68 164l-18-18a66 66 0 1 0-100 0l-18 18a96 96 0 0 1 68-164z"/>
+    <path d="M256 80a176 176 0 0 1 124 300l-18-18a146 146 0 1 0-212 0l-18 18A176 176 0 0 1 256 80z"/>
+  </g>
+</svg>

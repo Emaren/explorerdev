@@ -1,5 +1,5 @@
 {
-  "chain_name": "WoloDev",
+  "chain_name": "Wolo",
   "addr_prefix": "wolo",
   "rpc": ["https://explorer.aoe2hdbets.com/backend/tendermint"],
   "api": ["https://explorer.aoe2hdbets.com/backend/cosmos"],
